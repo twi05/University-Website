@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:  sans-serif;
+
+}
+
+section{
+    height: 100vh;
+   /* background-color: lightblue; */
+   font-family:  sans-serif;
+
+   
+}
+header h2{
+    font-size: medium;
+    color:tomato;
+    padding: 20px;
+    font-size: 128%;
+    
+}
+.main{
+    /* display: flex; */
+    /* flex-basis: 50vw; */
+    position: relative;
+    height:88vh;
+
+
+}
+
+
+
+.intro{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    font-size: 200%;
+}
+.intro span{
+    color: tomato;
+}
+.intro p{
+  font-family: sans-serif;
+  font-size:80%;
+  margin-top: 10px;
+}
+.profile-image{
+    position:  absolute;
+    height: 70vh;
+    width: 30%;
+    left: 60%;
+    top: 10%;
+  
+}
+.profile-image img{
+    height:100%;
+    /* width: 100%; */
+  border-radius: 10px;
+  box-shadow: 10px 5px 30px lightslategray;
+}
+
+/* .main-page{
+
+    background-color: lightblue;
+    height: 100px;
+} */
+
+.about-me{
+    max-height: 100vh;
+
+
+}
+.main2{
+    height: 100vh;
+    display: flex;
+    flex-basis: content;
+    position: relative;
+    justify-content: space-between;
+    /* align-self center; */
+}
+
+.myimg{
+/* height: 100px; */
+overflow: hidden;
+width: 80%;
+
+}
+
+.myimg img{
+    height: 60%;
+    width: 40%;
+
+
+position: absolute;
+left: 8%;
+top: 15%;
+border-radius: 10px;
+box-shadow: 10px 5px 30px lightslategray;
+}
+
+.content{
+margin-top: 8%;
+font-size: 1.5rem;
+margin-top: 8%;
+font-size: 1.5rem;
+margin-left: 30%;
+height: 60vh;
+width: 168%;
+}
+
+.content p{
+margin-top: 5%;
+}
+
+.content ul{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.content ul li{
+    list-style-type:square;
+    /* list-style-image:url(img/img1.jpg); */
+    margin: 5px;
+}
+
+.content ul img{
+    
+}

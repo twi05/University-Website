@@ -1,0 +1,60 @@
+.sub-header {
+    height: 50vh;
+    width: 100%;
+    background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sub-header h1 {
+    /* width: 80%; */
+    margin: auto;
+    text-align: center;
+    color: white;
+    margin: 5%;
+    font-size: 50px;
+}
+
+.about-us {
+    width: 80vw;
+    margin: auto;
+    text-align: left;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7%;
+}
+
+.about-col {
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.about-col img {
+    width: 100%;
+    /* overflow: scroll;  */
+}
+
+.about-col h1 {
+    padding-top: 70px;
+    font-size: 35px;
+}
+
+.about-col p {
+    padding: 10px;
+}
+
+.edit-btn {
+    color: tomato;
+    border: 1px solid tomato;
+    margin: auto;
+    text-align: center;
+}
+
+.edit-btn:hover {
+    color: white;
+    border: 1px solid white;
+}

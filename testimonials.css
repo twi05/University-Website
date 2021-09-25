@@ -1,0 +1,90 @@
+.testimonials {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.testimonial-col {
+    flex-basis: 40%;
+    text-align: left;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #fff3f3;
+    padding: 25px;
+}
+
+.testimonial-col img {
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+.testimonial-col p {
+    padding: 0;
+}
+
+.testimonial-col h3 {
+    margin-top: 16px;
+    text-align: left;
+}
+
+.fa {
+    color: tomato;
+}
+
+@media (max-width:700px) {
+    .testimonial-col img {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+}
+
+.cta {
+    width: 80%;
+    margin: 70px auto;
+    text-align: center;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/img/banner2.jpg);
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    padding-top: 100px;
+    border-radius: 10px;
+}
+
+
+/* .cta img {
+    width: 100%;
+} */
+
+.cta h1 {
+    color: white;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.cta a {
+    margin-bottom: 20px;
+}
+
+
+/* -------FOooter----------- */
+
+.footer {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4 {
+    margin-bottom: 25px;
+}
+
+.fa {
+    width: 10px;
+    display: inline-block;
+}
+
